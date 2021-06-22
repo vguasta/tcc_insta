@@ -2,8 +2,12 @@
 
 data/__pycache__
 
+data/InstagramAPI/LICENSE
 data/InstagramAPI/*.py
-data/InstagramAPI/__pycache__
+data/InstagramAPI/*.json
+data/InstagramAPI/*.txt
+data/InstagramAPI/*.md
+data/InstagramAPI/*/
 
 data/1-Creating_Dataset/*.txt
 data/1-Creating_Dataset/*.log
