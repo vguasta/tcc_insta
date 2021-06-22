@@ -2,13 +2,16 @@ InstagramAPI/
 
 .ipynb_checkpoints/
 
+data/1-Creating_Dataset/*.txt
+data/1-Creating_Dataset/*.log
+data/1-Creating_Dataset/*.bkp
+data/1-Creating_Dataset/*.json
 data/1-Creating_Dataset/Dataset
-data/1-Creating_Dataset/Dataset/*.txt
-data/1-Creating_Dataset/Dataset/*.log
-data/1-Creating_Dataset/Dataset/*.bkp
 
 data/2-Preparing_Dataset/Clean_Dataset
 data/2-Preparing_Dataset/CNN_Clean/CNN_Dataset
 data/2-Preparing_Dataset/CNN_Clean/CNN_Output
 data/4-Classifying_Dataset/CNN_Classify/CNN_Output
 data/4-Classifying_Dataset/Pattern
+
+data/JSONS
