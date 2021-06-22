@@ -1,6 +1,6 @@
-InstagramAPI/
-
 .ipynb_checkpoints/
+
+data/InstagramAPI/*.py
 
 data/1-Creating_Dataset/*.txt
 data/1-Creating_Dataset/*.log
