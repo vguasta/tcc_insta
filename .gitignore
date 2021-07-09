@@ -2,6 +2,8 @@
 
 data/__pycache__
 
+venv/envtcc/*
+
 data/InstagramAPI/LICENSE
 data/InstagramAPI/*.py
 data/InstagramAPI/*.json
