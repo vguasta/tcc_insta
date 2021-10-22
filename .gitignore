@@ -31,3 +31,5 @@ data/JSONS
 *.py
 *.txt
 *.bkp
+
+data/4-Classifying_Dataset/Dataset/*/
