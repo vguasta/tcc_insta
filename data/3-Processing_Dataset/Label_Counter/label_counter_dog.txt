@@ -11,7 +11,7 @@ desinte   = (15474, 10)
 							user				follower	pk					likes	count0
 m.inte    = (7533, 10)		lizzie.bear         431434  	1884924108395955504 21634	812.0
 inte      = (7532, 10)		susiesseniordogs    319059  	2160492164239831532 3773	95.0
-desinte   = (7736, 10)		newyorkbullycrew    279170  	1707386499165903056 1353	89.0
+desinte   = (7736, 10)		newyorkbullycrew   	279170    	1684119866830129449 1880	22.0
 m.desinte = (7738, 10)		dallaspetsalive     17147  		2017712527416539074 101		713.0	
 
 
