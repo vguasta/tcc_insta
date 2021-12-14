@@ -1,0 +1,18 @@
+2021-10-13 02:29:20 - Confusion Matrix...
+
+               pred: dog  pred: non_dog
+true: dog            595            105
+true: non_dog        177            523
+
+2021-10-13 02:29:20 - Metrics:
+2021-10-13 02:29:20 - accuracy:    0.80
+2021-10-13 02:29:20 - precision:   0.83
+2021-10-13 02:29:20 - recall:      0.85
+2021-10-13 02:29:20 - specificity: 0.75
+2021-10-13 02:29:20 - f1:          0.79
+
+2021-10-13 02:29:20 - Confusion Matrix Normalized...
+
+               pred: dog  pred: non_dog
+true: dog       0.850000       0.150000
+true: non_dog   0.252857       0.747143

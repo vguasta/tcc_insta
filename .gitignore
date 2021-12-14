@@ -20,16 +20,13 @@ data/1-Creating_Dataset/IC/*/
 
 data/2-Preparing_Dataset/Clean_Dataset/*/
 data/2-Preparing_Dataset/CNN_Clean/CNN_Dataset/*/
-data/2-Preparing_Dataset/CNN_Clean/CNN_Output/*/
-data/4-Classifying_Dataset/CNN_Classify/CNN_Output/*/
-data/4-Classifying_Dataset/Pattern/*/
 
-data/JSONS
+data/4-Classifying_Dataset/Dataset/*/
+data/4-Classifying_Dataset/CNN_Classify/CNN_Output/*/model_*.pickle
+data/4-Classifying_Dataset/CNN_Classify/CNN_Output/*/*.svg
+data/4-Classifying_Dataset/CNN_Classify/CNN_Output/*/*.h5
 
 *.parquet
 *.csv
 *.py
-*.txt
 *.bkp
-
-data/4-Classifying_Dataset/Dataset/*/

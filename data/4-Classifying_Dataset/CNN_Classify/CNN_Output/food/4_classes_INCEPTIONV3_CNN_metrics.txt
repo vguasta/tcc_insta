@@ -1,0 +1,58 @@
+2021-11-01 09:38:48 - CARREGANDO PRÓPRIO DATASET PARA USO...
+Found 4200 images belonging to 4 classes.
+Found 1200 images belonging to 4 classes.
+Found 600 images belonging to 4 classes.
+2021-11-01 09:38:48 - Finished.
+
+
+2021-11-01 09:38:48 - Treinando o modelo...
+Epoch 1/20
+131/131 [==============================] - 644s 5s/step - loss: 1.3818 - accuracy: 0.3078 - precision_func: 0.0305 - recall_func: 0.0049 - f1_func: 0.0084 - val_loss: 1.3506 - val_accuracy: 0.3361 - val_precision_func: 0.0000e+00 - val_recall_func: 0.0000e+00 - val_f1_func: 0.0000e+00
+Epoch 2/20
+131/131 [==============================] - 607s 5s/step - loss: 1.3128 - accuracy: 0.3884 - precision_func: 0.1069 - recall_func: 0.0177 - f1_func: 0.0291 - val_loss: 1.2834 - val_accuracy: 0.3953 - val_precision_func: 0.0270 - val_recall_func: 0.0034 - val_f1_func: 0.0060
+Epoch 3/20
+131/131 [==============================] - 602s 5s/step - loss: 1.2821 - accuracy: 0.4115 - precision_func: 0.1221 - recall_func: 0.0192 - f1_func: 0.0327 - val_loss: 1.2638 - val_accuracy: 0.4164 - val_precision_func: 0.0405 - val_recall_func: 0.0052 - val_f1_func: 0.0091
+Epoch 4/20
+131/131 [==============================] - 618s 5s/step - loss: 1.2430 - accuracy: 0.4247 - precision_func: 0.3085 - recall_func: 0.0694 - f1_func: 0.1072 - val_loss: 1.2418 - val_accuracy: 0.4215 - val_precision_func: 0.0270 - val_recall_func: 0.0027 - val_f1_func: 0.0049
+Epoch 5/20
+131/131 [==============================] - 612s 5s/step - loss: 1.2270 - accuracy: 0.4316 - precision_func: 0.2934 - recall_func: 0.0609 - f1_func: 0.0952 - val_loss: 1.2249 - val_accuracy: 0.4248 - val_precision_func: 0.1622 - val_recall_func: 0.0212 - val_f1_func: 0.0372
+Epoch 6/20
+131/131 [==============================] - 620s 5s/step - loss: 1.2072 - accuracy: 0.4453 - precision_func: 0.3401 - recall_func: 0.0704 - f1_func: 0.1115 - val_loss: 1.2012 - val_accuracy: 0.4324 - val_precision_func: 0.1622 - val_recall_func: 0.0262 - val_f1_func: 0.0447
+Epoch 7/20
+131/131 [==============================] - 631s 5s/step - loss: 1.1903 - accuracy: 0.4503 - precision_func: 0.3454 - recall_func: 0.0913 - f1_func: 0.1333 - val_loss: 1.2085 - val_accuracy: 0.4316 - val_precision_func: 0.1351 - val_recall_func: 0.0159 - val_f1_func: 0.0285
+Epoch 8/20
+131/131 [==============================] - 692s 5s/step - loss: 1.1740 - accuracy: 0.4652 - precision_func: 0.3976 - recall_func: 0.0995 - f1_func: 0.1488 - val_loss: 1.2077 - val_accuracy: 0.4324 - val_precision_func: 0.2658 - val_recall_func: 0.0458 - val_f1_func: 0.0769
+2021-11-01 11:02:36 - Finished.
+
+
+2021-11-01 11:02:37 - Tempo de treino e validate: 1:23:47.778140
+
+
+2021-11-01 11:02:40 - Avaliando o modelo...
+2021-11-01 11:02:40 - Validate:
+37/37 [==============================] - 142s 4s/step - loss: 1.2013 - accuracy: 0.4409 - precision_func: 0.2432 - recall_func: 0.0367 - f1_func: 0.0619
+2021-11-01 11:05:04 - Test:
+18/18 [==============================] - 70s 4s/step - loss: 1.2007 - accuracy: 0.4444 - precision_func: 0.1759 - recall_func: 0.0235 - f1_func: 0.0401
+
+
+2021-11-01 11:07:35 - Confusion Matrix...
+
+                 pred: m.inte  pred: inte  pred: desinte  pred: m.desinte
+true: m.inte               84          33             20               13
+true: inte                 25          82             24               19
+true: desinte              26          60             37               27
+true: m.desinte            19          33             18               80
+
+2021-11-01 11:07:35 - Metrics:
+2021-11-01 11:07:35 - accuracy:    0.4702
+2021-11-01 11:07:35 - precision:   0.4707
+2021-11-01 11:07:35 - recall:      0.4710
+2021-11-01 11:07:35 - f1:          0.4708
+
+2021-11-01 11:07:35 - Confusion Matrix Normalized...
+
+                 pred: m.inte  pred: inte  pred: desinte  pred: m.desinte
+true: m.inte         0.560000    0.220000       0.133333         0.086667
+true: inte           0.166667    0.546667       0.160000         0.126667
+true: desinte        0.173333    0.400000       0.246667         0.180000
+true: m.desinte      0.126667    0.220000       0.120000         0.533333

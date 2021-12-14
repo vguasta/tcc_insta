@@ -1,0 +1,62 @@
+2021-11-07 01:32:39 - CARREGANDO PRÓPRIO DATASET PARA USO...
+Found 4200 images belonging to 2 classes.
+Found 1200 images belonging to 2 classes.
+Found 600 images belonging to 2 classes.
+2021-11-07 01:32:40 - Finished.
+
+
+2021-11-07 01:32:40 - Treinando o modelo...
+Epoch 1/20
+131/131 [==============================] - 714s 5s/step - loss: 0.6574 - accuracy: 0.6171 - precision_func: 0.6153 - recall_func: 0.6219 - f1_func: 0.6108 - val_loss: 0.5738 - val_accuracy: 0.6926 - val_precision_func: 0.6906 - val_recall_func: 0.6895 - val_f1_func: 0.6853
+Epoch 2/20
+131/131 [==============================] - 672s 5s/step - loss: 0.5412 - accuracy: 0.7294 - precision_func: 0.7328 - recall_func: 0.7297 - f1_func: 0.7226 - val_loss: 0.5108 - val_accuracy: 0.7466 - val_precision_func: 0.7303 - val_recall_func: 0.7739 - val_f1_func: 0.7468
+Epoch 3/20
+131/131 [==============================] - 672s 5s/step - loss: 0.5028 - accuracy: 0.7478 - precision_func: 0.7467 - recall_func: 0.7539 - f1_func: 0.7443 - val_loss: 0.4851 - val_accuracy: 0.7508 - val_precision_func: 0.7405 - val_recall_func: 0.7744 - val_f1_func: 0.7514
+Epoch 4/20
+131/131 [==============================] - 671s 5s/step - loss: 0.4690 - accuracy: 0.7802 - precision_func: 0.7751 - recall_func: 0.7922 - f1_func: 0.7779 - val_loss: 0.4578 - val_accuracy: 0.7770 - val_precision_func: 0.7562 - val_recall_func: 0.8159 - val_f1_func: 0.7795
+Epoch 5/20
+131/131 [==============================] - 670s 5s/step - loss: 0.4385 - accuracy: 0.8011 - precision_func: 0.7944 - recall_func: 0.8120 - f1_func: 0.7975 - val_loss: 0.4516 - val_accuracy: 0.7812 - val_precision_func: 0.7855 - val_recall_func: 0.7819 - val_f1_func: 0.7762
+Epoch 6/20
+131/131 [==============================] - 675s 5s/step - loss: 0.4186 - accuracy: 0.8071 - precision_func: 0.8001 - recall_func: 0.8190 - f1_func: 0.8041 - val_loss: 0.4358 - val_accuracy: 0.7905 - val_precision_func: 0.7824 - val_recall_func: 0.8072 - val_f1_func: 0.7889
+Epoch 7/20
+131/131 [==============================] - 669s 5s/step - loss: 0.3936 - accuracy: 0.8184 - precision_func: 0.8143 - recall_func: 0.8313 - f1_func: 0.8161 - val_loss: 0.4375 - val_accuracy: 0.7990 - val_precision_func: 0.8132 - val_recall_func: 0.7852 - val_f1_func: 0.7944
+Epoch 8/20
+131/131 [==============================] - 669s 5s/step - loss: 0.3820 - accuracy: 0.8282 - precision_func: 0.8289 - recall_func: 0.8272 - f1_func: 0.8214 - val_loss: 0.4342 - val_accuracy: 0.7981 - val_precision_func: 0.7343 - val_recall_func: 0.9205 - val_f1_func: 0.8136
+Epoch 9/20
+131/131 [==============================] - 670s 5s/step - loss: 0.3588 - accuracy: 0.8407 - precision_func: 0.8315 - recall_func: 0.8571 - f1_func: 0.8381 - val_loss: 0.4193 - val_accuracy: 0.8108 - val_precision_func: 0.8268 - val_recall_func: 0.7938 - val_f1_func: 0.8044
+Epoch 10/20
+131/131 [==============================] - 670s 5s/step - loss: 0.3298 - accuracy: 0.8536 - precision_func: 0.8510 - recall_func: 0.8584 - f1_func: 0.8496 - val_loss: 0.3951 - val_accuracy: 0.8429 - val_precision_func: 0.8252 - val_recall_func: 0.8656 - val_f1_func: 0.8427
+Epoch 11/20
+131/131 [==============================] - 671s 5s/step - loss: 0.3214 - accuracy: 0.8620 - precision_func: 0.8610 - recall_func: 0.8671 - f1_func: 0.8581 - val_loss: 0.4221 - val_accuracy: 0.8066 - val_precision_func: 0.8240 - val_recall_func: 0.7729 - val_f1_func: 0.7928
+Epoch 12/20
+131/131 [==============================] - 669s 5s/step - loss: 0.3095 - accuracy: 0.8661 - precision_func: 0.8636 - recall_func: 0.8688 - f1_func: 0.8595 - val_loss: 0.4197 - val_accuracy: 0.8193 - val_precision_func: 0.7912 - val_recall_func: 0.8644 - val_f1_func: 0.8230
+2021-11-07 03:47:34 - Finished.
+
+
+2021-11-07 03:47:34 - Tempo de treino e validate: 2:14:54.116587
+
+
+2021-11-07 03:47:35 - Avaliando o modelo...
+2021-11-07 03:47:35 - Validate:
+37/37 [==============================] - 157s 4s/step - loss: 0.4193 - accuracy: 0.8193 - precision_func: 0.7886 - recall_func: 0.8604 - f1_func: 0.8200
+2021-11-07 03:50:14 - Test:
+18/18 [==============================] - 71s 4s/step - loss: 0.4670 - accuracy: 0.7882 - precision_func: 0.4894 - recall_func: 0.4361 - f1_func: 0.4605
+
+
+2021-11-07 03:52:42 - Confusion Matrix...
+
+               pred: inte  pred: desinte
+true: inte            263             37
+true: desinte          87            213
+
+2021-11-07 03:52:42 - Metrics:
+2021-11-07 03:52:42 - accuracy:    0.7933
+2021-11-07 03:52:42 - precision:   0.7514
+2021-11-07 03:52:42 - recall:      0.8767
+2021-11-07 03:52:42 - f1:          0.8092
+
+2021-11-07 03:52:42 - Confusion Matrix Normalized...
+
+               pred: inte  pred: desinte
+true: inte       0.876667       0.123333
+true: desinte    0.290000       0.710000

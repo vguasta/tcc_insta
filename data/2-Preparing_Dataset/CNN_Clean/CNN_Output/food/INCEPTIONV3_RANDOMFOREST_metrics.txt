@@ -1,0 +1,18 @@
+2021-10-13 02:44:12 - Confusion Matrix...
+
+                pred: food  pred: non_food
+true: food             489             211
+true: non_food         179             521
+
+2021-10-13 02:44:12 - Metrics:
+2021-10-13 02:44:12 - accuracy:    0.72
+2021-10-13 02:44:12 - precision:   0.71
+2021-10-13 02:44:12 - recall:      0.70
+2021-10-13 02:44:12 - specificity: 0.74
+2021-10-13 02:44:12 - f1:          0.73
+
+2021-10-13 02:44:12 - Confusion Matrix Normalized...
+
+                pred: food  pred: non_food
+true: food        0.698571        0.301429
+true: non_food    0.255714        0.744286
